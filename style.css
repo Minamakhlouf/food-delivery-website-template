@@ -110,6 +110,8 @@ nav li a:hover {
 
 .container {
     display: flex; 
+    width: 75%; 
+    margin: 0 auto; 
 }
 
 section h2 {
@@ -121,3 +123,33 @@ section h2 {
     text-align: center; 
     margin-bottom: 30px; 
 }
+
+.longcopy-main {
+    line-height: 145%;
+    width: 60%; 
+    margin-left: 20%; 
+}
+
+.box {
+    padding: 1%; 
+}
+
+h3 {
+    font-weight: 300; 
+    text-transform: uppercase; 
+    letter-spacing: 1px;
+    font-size: 110%; 
+    margin-bottom: 15px; 
+}
+
+.longcopy {
+    font-size: 90%; 
+    line-height: 145%; 
+}
+
+.heading-container {
+    margin-bottom: 30px; 
+}
+
+/* Image Gallery Elements */ 
+
