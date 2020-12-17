@@ -109,9 +109,11 @@ nav li a:hover {
 }
 
 .container {
-    display: flex; 
+    display: grid; 
     width: 75%; 
     margin: 0 auto; 
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px; 
 }
 
 section h2 {
