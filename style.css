@@ -21,6 +21,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(resources/img/hero.jpg); 
     background-size: cover;
     background-position: center; 
+    background-attachment: fixed;
     height: 100vh; 
 }
 
@@ -261,3 +262,42 @@ h3 {
 
 /* ----- TESTIMONIALS ------ */
 
+.testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(resources/img/back-customers.jpg); 
+    background-size: cover; 
+    color: white; 
+    background-attachment: fixed;
+}
+
+.testimonial-grid {
+    width: 80%; 
+    margin: 50px auto; 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+}
+
+blockquote {
+    font-style: italic; 
+    line-height: 145%;
+}
+
+cite {
+    font-size: 90%; 
+    margin-top: 25px; 
+    display: block; 
+    padding: 30px; 
+}
+
+blockquote::before {
+    content: "\201C"; 
+    font-size: 400%; 
+    display: block; 
+}
+
+cite img {
+    height: 50px; 
+    border-radius: 50%;
+    vertical-align: middle; 
+
+}
