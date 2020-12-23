@@ -192,10 +192,59 @@
     </section>
     <section>
         <h2>We're happy to hear from you</h2>
-        <form method="POST" action="#">
-            
+        <form method="POST" action="#" class="contact-form">
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+            <div>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" placeholder="Your e-mail" required>
+            </div>
+            <div>
+                <label for="find-us">How did you find us? </label>
+                <select name="find-us" id="find-us">
+                    <option value="friends">Friends</option>
+                    <option value="search-engine" selected>Internet</option>
+                    <option value="advertisement">Advertisement</option>
+                    <option value="family">Family</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label for="news">Newsletter?: </label>
+                <input type="checkbox" id="news" name="news" checked required> 
+            </div>
+            <div>
+                <label for="textarea">Drop us a line: </label> <br>
+                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Your message"></textarea>
+            </div>
+            <div>
+                <input class="btn btn-full" type="submit" value="Submit Form">
+            </div>
         </form>
     </section>
+    <footer>
+        <div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 </body>
 </html>

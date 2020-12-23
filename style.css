@@ -344,3 +344,27 @@ cite img {
 .plan-box div:last-child {
     text-align: center; 
 }
+
+/* ------ Sign up ------ */ 
+
+form {
+    width: 60%; 
+    margin: 0 auto; 
+}
+
+input, select, textarea {
+    /*width: 100%;*/ 
+    padding: 7px; 
+    border-radius: 3px; 
+    flex: 3; 
+}
+
+label {
+    flex: 1; 
+}
+
+form div {
+    display: flex; 
+    margin: 10px auto; 
+}
+
