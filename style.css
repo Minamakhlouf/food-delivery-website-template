@@ -345,6 +345,10 @@ cite img {
     text-align: center; 
 }
 
+select {
+    text-align: center; 
+}
+
 /* ------ Sign up ------ */ 
 
 form {
@@ -368,3 +372,41 @@ form div {
     margin: 10px auto; 
 }
 
+/* ----- Footer ----- */ 
+
+footer {
+    background-color: #333; 
+}
+
+.footer-flex {
+    display: flex; 
+    margin: 30px 0; 
+}
+
+.footer-flex-item {
+    flex: 1; 
+}
+
+footer ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: space-around;
+    margin: 10px 0; 
+}
+
+footer p {
+    text-align: center; 
+    padding: 3px; 
+    color: #888; 
+}
+
+footer li a, footer ion-icon {
+    text-decoration: none; 
+    border: 0; 
+    color: #888; 
+    transition: color 0.3s; 
+}
+
+footer li a:hover, footer ion-icon:hover {
+    color: #fff; 
+}
